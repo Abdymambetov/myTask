@@ -1,0 +1,30 @@
+@import './all.scss';
+@import './fonts.scss';
+
+:root{
+  --level-one: #EDEDED;
+  --level-two: #ACD5F2;
+  --level-three: #7FA8C9;
+  --level-four: #527BA0;
+  --level-five: #254E77;
+  --primary-text-color: #959494;
+  --tooltip-title-color: #FFF;
+  --tooltip-text-color: #7C7C7C;
+  --tooltip-bg: #000;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

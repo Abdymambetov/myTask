@@ -1,0 +1,31 @@
+.graph{
+    position: relative;
+    display: flex;
+    gap: 2px
+}
+
+.week_columns,
+.week_days{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.week_days{
+    margin-right: 5px;
+
+    p:empty{
+        height: 14.2px;
+    }
+}
+.main{
+    display: flex;
+}
+.month_wrapper{
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}

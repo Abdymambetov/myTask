@@ -1,0 +1,1 @@
+export const cutMonthText = (month: string) => month.length > 4 ? month.slice(0, 3) + '.' : month;

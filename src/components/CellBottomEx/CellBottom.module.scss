@@ -1,0 +1,18 @@
+.main{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+
+    p:first-child{
+        margin-right: 6px;
+    }
+
+    p{
+        margin-left: 10px;
+    }
+}
+
+.cells{
+    display: flex;
+    gap: 1px;
+}

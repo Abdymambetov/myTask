@@ -1,0 +1,21 @@
+.cell{
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+.one{
+    background: var(--level-one);
+}
+.two{
+    background: var(--level-two);
+}
+.three{
+    background: var(--level-three);
+}
+.four{
+    background: var(--level-four);
+}
+.five{
+    background: var(--level-five);
+}
